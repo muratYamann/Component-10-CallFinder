@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yamankod.component_10_callfinder.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bu uygulama gelen veya yapılan cagrilari tesbit etmek icin Broadcast Receiver yapisini kullanmaktadir.       
+Eger gelen veya yapilan bir cagri varsa Toast mesaji gosterir."
+        android:textColor="#c00"
+        android:textSize="24sp"
+        android:gravity="center"/>
+</LinearLayout>
